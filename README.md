@@ -10,7 +10,7 @@ bash install.sh
 
 ## Citation
 
-If you use this library, please kindly acknowledge our work:
+If you use this library, please kindly acknowledge the original work:
 ```tex
 @Article{qian2022pointnext,
   author  = {Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan and Elhoseiny, Mohamed and Ghanem, Bernard},
