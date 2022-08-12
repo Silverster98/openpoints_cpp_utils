@@ -1,45 +1,12 @@
-# OpenPoints
+# OpenPoints_cpp_utils
 
-OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein.
+Fork from [OpenPoints](https://github.com/guochengqian/openpoints), and only maintain cpp utils.
 
+## Install
 
-OpenPoints currently supports reproducing the following models:
-- PointNet
-- DGCNN
-- DeepGCN
-- PointNet++
-- ASSANet
-- PointMLP
-- PointNeXt
-
-
-
-## Features
-
-1. **Extensibility**: supports many representative networks for point cloud understanding, such as *PointNet, DGCNN, DeepGCN, PointNet++, ASSANet, PointMLP*, and our ***PointNeXt***. More networks can be built easily based on our framework since **OpenPoints support a wide range of basic operations including graph convolutions, self-attention, farthest point sampling, ball query, *e.t.c***.
-
-2. **Ease of Use**: *Build* model, optimizer, scheduler, loss function,  and data loader *easily from cfg*. Train and validate different models on various tasks by simply changing the `cfg\*\*.yaml` file. 
-
-      ```
-   model = build_model_from_cfg(cfg.model)
-   criterion = build_criterion_from_cfg(cfg.criterion)
-   ```
-
-
-
-## Usage
-
-OpenPoints only serves as an engine. Please refer to [PointNeXt](https://github.com/guochengqian/PointNeXt) for a specific example of how to use and install
-
-
-
-## TODO
-
-- [  ] pip install support
-- [  ] clean code for shapenetpart
-- [  ] more models
-
-
+```bash
+bash install.sh
+```
 
 ## Citation
 
